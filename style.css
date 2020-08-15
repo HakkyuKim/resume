@@ -28,6 +28,10 @@ div {
   padding: 20px;
   max-width: 1200px; 
 }
+.container-header h1 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
 #about-me .about-me{
   background-color: white;
   min-height: 100vh;
@@ -44,9 +48,9 @@ div {
 /* Hero section */
 #hero .hero-img {
   width: 200px;
-  height: 300px;
+  height: 200px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 50%;
   overflow: hidden;
 }
 #hero .hero-info {
@@ -65,10 +69,6 @@ div {
 /* End hero section */
 
 /* Experience section */
-#experience .experience h1 {
-  font-size: 4rem;
-  margin-bottom: 40px;
-}
 #experience .experience-items {
   display: flex;
   flex-direction: column;
@@ -101,3 +101,45 @@ div {
   font-size: 1.8rem;
 }
 /* End experience section */
+
+/* Skills section */
+#skills .skills-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+#skills .skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+  width: 200px;
+}
+#skills .skills-item-icons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#skills .skills-item-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+#skills .skills-item h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#skills .skills-item p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+/* End Skills section */
+
