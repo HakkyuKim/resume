@@ -120,7 +120,10 @@ div {
   width: 150px;
   height: 150px;
   margin-right: 10px;
-  padding: 2px;
+  padding: 10px;
+}
+#experience .logo {
+  padding: 20px;
 }
 #experience .experience-item-info {
   max-width: 600px;
@@ -134,6 +137,10 @@ div {
 }
 #experience .experience-item-info p {
   font-size: 1.8rem;
+}
+#experience .experience-item-info a {
+  font-weight: bold;
+  color: royalblue;
 }
 /* End experience section */
 
@@ -169,6 +176,9 @@ div {
   padding: 2px;
   margin-bottom: 10px;
 }
+#skills .skills-item-content {
+  margin-bottom: 10px;
+}
 #skills .skills-item h2 {
   font-size: 2rem;
   text-align: center;
@@ -177,5 +187,26 @@ div {
 #skills .skills-item p {
   font-size: 1.8rem;
   text-align: center;
+}
+#skills .tag-items {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#skills .tag-item {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 6px;
+  padding: 0 10px;
+  margin: 5px;
+  border: black solid 1px;
+}
+#skills .tag-item-info h4{
+  font-size: 1.3rem;
 }
 /* End Skills section */
