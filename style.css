@@ -11,6 +11,11 @@ html{
 a {
   text-decoration: none;
 }
+a:visited {
+  text-decoration: none;
+  color: black
+}
+
 img{
   height: 100%;
   width: 100%;
@@ -33,6 +38,26 @@ div {
   font-size: 4rem;
   margin-bottom: 40px;
 }
+/* Header section */
+#header .header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: none;
+}
+#header .brand h1 {
+  font-size: 2.5rem;
+}
+#header .nav-list {
+  list-style-type: none;
+}
+#header .nav-list li {
+  font-size: 1.8rem;
+}
+/* End Header section */
+
 #about-me .about-me{
   background-color: white;
   min-height: 100vh;
