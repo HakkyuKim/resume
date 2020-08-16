@@ -20,6 +20,7 @@ img{
 div {
   border: solid black 0px;
 }
+
 .container {
   display: flex;
   align-items: center;
@@ -80,26 +81,24 @@ div {
 /* End hero section */
 
 /* Experience section */
-#experience .experience-items {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 #experience .experience-item {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   padding: 20px;
+  max-width: 800px;
 }
 #experience .experience-item-img {
   width: 150px;
   height: 150px;
-  border-radius: 20px;
-  overflow: hidden;
   margin-right: 10px;
   padding: 2px;
+}
+#experience .experience-item-info {
+  max-width: 600px;
 }
 #experience .experience-item-info h2 {
   font-size: 3rem;
@@ -119,6 +118,7 @@ div {
   align-items: flex-start;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 #skills .skills-item {
   display: flex;
@@ -126,7 +126,8 @@ div {
   justify-content: center;
   flex-direction: column;
   margin: 0 10px;
-  width: 200px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 #skills .skills-item-icons {
   display: flex;
