@@ -59,6 +59,17 @@ div {
   justify-content: center;
   flex-direction: column;
 }
+#hero .hero-links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#hero .hero-link {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+}
 #hero .hero-info h1 {
   font-size: 4rem;
 }
@@ -142,4 +153,3 @@ div {
   text-align: center;
 }
 /* End Skills section */
-
